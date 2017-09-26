@@ -2,6 +2,7 @@
 
   window.onload = function() {// when all dom elements loaded 
     setTimeout(()=>{ //create timer
+      console.log('hello from main js');
       let lamp = document.querySelector('.img-wrap');//take container with our lamp
       lamp.classList.remove('lamp-off');
       lamp.classList.add('lamp-on');
