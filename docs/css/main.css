@@ -248,7 +248,7 @@ body {
   width: 100%; }
 
 .lamp-off {
-  background: url("../img/Lamp-Off.png"); }
+  background: url("../img/Lamp-OFF.png"); }
 .lamp-on {
   background: url("../img/Lamp-On.png"); }
 
@@ -296,7 +296,14 @@ body {
 @keyframes blur {
   from {
     text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8; } }
-
+@keyframes animation-expand {
+  0% {
+    transform: scale(1.5);}  
+  50% {
+    transform: scale(1);}  
+  100% {
+    transform: scale(1.5);}
+}
 h2 {
   font-size: 2em; }
   @media (max-width: 991px) {
