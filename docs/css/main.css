@@ -248,9 +248,9 @@ body {
   width: 100%; }
 
 .lamp-off {
-  background: url("img/Lamp-Off.png"); }
+  background: url("./img/Lamp-Off.png"); }
 .lamp-on {
-  background: url("img/Lamp-On.png"); }
+  background: url("./img/Lamp-On.png"); }
 
 .wrapper {
   display: -webkit-box;
